@@ -3,6 +3,8 @@
 body{
     margin:0;
     font-size:18px;
+    font-family: "Yu Gothic Medium";
+    font-weight: 800;
 }
 .flex{
     display:flex;
@@ -92,6 +94,7 @@ img{
 }
 .program{
     background-color:#FFFEAB;
+    padding-bottom:50px;
 }
 .program-box{
     padding-top:80px;
@@ -163,13 +166,114 @@ img{
     top:-30%;
     left:-2%;
 }
+.program .guitar-img{
+    position:absolute;
+    width:15%;
+    right:-2%;
+    bottom:-15%;
+}
+.program .memo-img{
+    width:20%;
+    position:absolute;
+    top:-35%;
+    left:-2%;
+}
+.program-more{
+    font-size:2rem;
+    color:#fff;
+    background-color:#EC5D3A;
+    text-decoration: none;
+    margin:50px auto 0;
+    display: block;
+    padding:3px 20px;
+    width:6%;
+}
+.event{
+    padding-top:80px;
+}
+.event h2{
+    font-size:2rem;
+    color:#EC5D3A;
+    border-bottom:5px solid #EC5D3A;
+    width:12%;
+    margin:0 auto 80px;
+}
 .event-con{
     margin-bottom:20px;
+    width:60%;
+    margin:0 auto 80px;
+    position:relative;
 }
 .event-con h3{
     margin-top:8px;
-    margin-bottom:0px;
+    margin-bottom:20px;
+    font-size:2rem;
+    padding:3px 0 3px 10px;
+    border-left:5px solid #EC5D3A;
+    color:#EC5D3A;
 }
 .event-con p{
     margin-top:5px;
+    font-size:1.3em;
+}
+.footer{
+    background-color:#EC5E3A;
+    padding:100px 0 10px;
+}
+.footer-con{
+    align-items: center;
+    width:70%;
+    margin:0 auto;
+}
+.footer-con img{
+    width:20%;
+}
+.footer-con-right{
+    width:75%;
+    margin-left:5%;
+}
+.footer-con-right ul{
+    list-style: none;
+    padding:0;
+    margin-bottom:20px;
+}
+.footer-con-right li{
+    width:20%;
+    text-align:center;
+}
+.foot-right{
+    border-right:#fff 2px solid;
+}
+.foot-menu-ja{
+    font-size:0.7rem;
+    margin:2px 0;
+    color:#fff;
+}
+.foot-menu-en{
+    font-size:0.6rem;
+    margin:2px 0;
+    color:#F5A996;
+}
+.foot-access{
+    width:65%;
+}
+.foot-access p{
+    font-size:0.8em;
+    margin:2px 0;
+    color:#fff;
+}
+.foot-info a{
+    width:35%;
+    display:block;
+    color:#EC5D3A;
+    background-color:#fff;
+    text-align:center;
+    text-decoration: none;
+    padding:10px 0;
+}
+.copy{
+    font-size:0.8em;
+    text-align:center;
+    margin-top:30px;
+    color:#fff;
 }
