@@ -71,7 +71,7 @@ img{
     width:100%;
 } 
 .concept{
-    margin:0 auto;
+    margin:0 auto 150px;
 }
 .concept img{
     margin:0 auto;
@@ -92,9 +92,26 @@ img{
     margin:0 auto;
     margin-bottom:1.3rem;
 }
+.big-img{
+    position: relative;
+}
+.big-main{
+    width:100%;
+}
+.big1{
+    position:absolute;
+    top:-22%;
+    left:-5%;
+}
+.big2{
+    position:absolute;
+    bottom:-11%;
+    right:-7%;
+}
 .program{
     background-color:#FFFEAB;
     padding-bottom:50px;
+    margin-top:-10px;
 }
 .program-box{
     padding-top:80px;
