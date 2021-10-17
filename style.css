@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body{
+    margin:0;
+    font-size:18px;
+}
+.flex{
+    display:flex;
+}
+img{
+    width:500px;
+}
+.head-menu{
+    list-style:none;
+    padding:0;
+    margin:10px 0;
+    width:95%
+}
+.head-menu a{
+    width:17%;
+}
+.head-menu li{
+    text-align:center;
+    padding:3px 0;
+}
+.menu-right{
+    border-right:#EC5D3A 2px solid;
+}
+.menu-ja{
+    font-size:0.9rem;
+    margin:2px 0 2px;
+    color:#EC5D3A ;
+    font-weight:700;
+}
+.menu-en{
+    margin:2px 0 2px;
+    font-size:0.7rem;
+    color:#FDC0B2 ;
+}
+.head-menu a{
+    text-decoration: none;
+    color:black;
+}
+.header{
+    border-bottom:#EC5D3A 4px solid;
+    align-items:center;
+    margin:8px 0 0;
+    padding-bottom:8px;
+}
+.header img{
+    width:5%;
+}
+.language{
+    display:flex;
+    font-size:0.8rem;
+    justify-content: flex-end;
+}
+.language p{
+    padding:5px 15px;
+    margin:5px 0;
+    color:#EC5D3A;
+}
+.language .current{
+    color:#fff;
+    background-color:#EC5D3A;
+}
+.KV{
+    margin-top:20px;
+    width:100%;
+} 
+.concept{
+    margin:0 auto;
+}
+.concept img{
+    margin:0 auto;
+    width:10%;
+    display:block;
+}
+.concept h2{
+    text-align:center;
+    margin:5px auto 50px;
+    font-size:2rem;
+    border-bottom:5px solid #EC5D3A;
+    width:35%;
+    color:#EC5D3A;
+}
+.concept p{
+    font-size:1.3rem;
+    width:60%;
+    margin:0 auto;
+    margin-bottom:1.3rem;
+}
+.program{
+    background-color:#FFFEAB;
+}
+.program-box{
+    padding-top:80px;
+    width:80%;
+    margin:0 auto;
+}
+.program h2{
+    font-size:2rem;
+    border-bottom:5px solid #EC5D3A;
+    width:20%;
+    margin:0 auto;
+    text-align:center;
+    color:#EC5D3A;
+}
+.program img{
+    width:48%;
+}
+.event h2{
+    text-align:center;
+}
+.event img{
+    width:100%;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.img-left{
+    margin-bottom:30px;
+    align-items: center;
+}
+.img-right{
+    margin-bottom:30px;
+    align-items: center;
+}
+.event-con{
+    margin-bottom:20px;
+}
+.event-con h3{
+    margin-top:8px;
+    margin-bottom:0px;
+}
+.event-con p{
+    margin-top:5px;
+}
