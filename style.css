@@ -204,6 +204,7 @@ img{
     display: block;
     padding:3px 20px;
     width:6%;
+    text-align:center;
 }
 .event{
     padding-top:80px;
